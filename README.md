@@ -13,4 +13,4 @@ I am planning to make PhysX integrated physics toys for Modfest: Toybox, includi
 
 ---
 
-A footnote for special thanks, credits, and other shoutouts - including "created at modfest" banners.
+Special Thanks to fabmax for creating [PhysX-JNI](https://github.com/fabmax/physx-jni)
