@@ -18,6 +18,13 @@ dependencies {
 
 	modImplementation libs.fl
 	modImplementation libs.fapi
+
+	implementation("de.fabmax:physx-jni:2.6.0")
+
+	runtimeOnly("de.fabmax:physx-jni:2.6.0:natives-windows")
+	runtimeOnly("de.fabmax:physx-jni:2.6.0:natives-linux")
+	runtimeOnly("de.fabmax:physx-jni:2.6.0:natives-macos")
+	runtimeOnly("de.fabmax:physx-jni:2.6.0:natives-macos-arm64")
 }
 
 processResources {
